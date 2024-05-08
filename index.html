@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Loops Homework</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>JS LOOPS</h1>
+    <h2 id="question1">Write about break and continue about loops?</h2>
+    <div class="answers">
+      <div id="break">
+        <button>Break</button>
+        <div class="break-explain">
+          <p>The break statement is used to <span>JUMP OUT</span> of a loop</p>
+          <p>Example</p>
+          <p>
+            let Text = ""; <br />
+            for (let i = 0; i < 10; i++) { <br />
+            if (i === 3) { break; } <br />
+            text += "The number is " + i ; } <br />
+            <br />The answer is: <br />
+            The number is 0 <br />
+            The number is 1 <br />
+            The number is 2
+          </p>
+          <p></p>
+        </div>
+      </div>
+      <div id="continue">
+        <button>Continue</button>
+        <div class="continue-explain">
+          <p>
+            The continue statement breaks one iteration (in the loop), if a
+            specified condition occurs, and continues with the next iteration in
+            the loop. <br />
+            <br />
+            For Example <br />
+            <br />
+            for (let i = 0; i < 10; i++) { <br />
+            if (i === 3) { continue; } <br />
+            text += "The number is " + i ; } <br />
+            <br />
+            The answer is <br />
+            The number is 0 <br />
+            The number is 1 <br />
+            The number is 2<br />
+            The number is 4<br />
+            The number is 5<br />
+            The number is 6<br />
+            The number is 7<br />
+            The number is 8<br />
+            The number is 9<br />
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

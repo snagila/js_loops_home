@@ -1,0 +1,33 @@
+body {
+  background: black;
+  color: whitesmoke;
+  margin: 0;
+  margin-left: 1em;
+}
+h1 {
+  color: red;
+  text-align: center;
+  font-size: 3em;
+}
+#question1 {
+  font-size: 2em;
+  color: brown;
+}
+#break button {
+  color: purple;
+  padding: 5px;
+  width: 7rem;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+#continue button {
+  color: purple;
+  padding: 5px;
+  width: 10rem;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.answers {
+  display: flex;
+  justify-content: space-between;
+}
